@@ -1,0 +1,227 @@
+h1 {
+    color: red;
+    font-family: Roboto;
+}
+
+body{
+    min-height: 100vh;
+    padding-bottom: 100px;
+    position: relative;
+
+}
+
+header{
+    background-color: #fff;
+    border-bottom: 1px solid #ccc ;
+    
+}
+
+.row{
+    margin: 0;
+}
+
+.container-fluid{
+    padding: 0;
+}
+
+.btn.btn-primary{
+    background-color: #f2a340;
+    border: 2px solid #c28008;
+}
+
+.btn.btn-primary:hover{
+    background-color: #c28008;
+    border: 2px solid #c28008;
+}
+
+
+#event-create-container {
+    padding: 30px;
+}
+#event-create-container label{
+    font-weight: bold;
+}
+
+.msg{
+    background-color: #acfacf;
+    color: #155724;
+    border: 1px solid #c3e6c8;
+    width: 100%;
+    margin-bottom: 0;
+    text-align: center;
+    padding:10px;
+}
+
+#event-create-container input,
+#event-create-container select,
+#event-create-container textarea{
+    font-size: 12px;
+    margin-top: 3px;
+    margin-bottom: 10px;
+}
+
+#navbar-brand img{
+    width: 50px;
+}
+
+#navbar {
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 5px 0;
+}
+
+#navbar a  {
+  font-size: 14px;
+  color: #757575;
+}
+
+
+#navbar a:hover  {
+    font-size: 14px;
+    color: #f2a340;
+  }
+
+#search-container{
+    background-image: url("../img/image2.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    padding: 50px;
+    text-align: center;
+}
+
+#search-container h1{
+
+ color: #f2a340;
+ margin-bottom: 30px;
+ font-weight: 900;
+ 
+}
+
+#search-container form{
+    width: 50%;
+    margin: 0 auto;
+}
+
+#events-container {
+    width: 100%;
+    padding: 10%;
+    padding-left: 50%;
+    padding-right: 50%;
+    justify-content: center;
+}
+
+
+
+#events-container h2 {
+    margin-bottom: 10px;
+}
+
+#events-container .subtitle {
+    color: #757575;
+    margin-bottom: 30px;
+}
+
+#cards-container {
+    display: flex;
+}
+
+#image-container,
+#info-container{
+    margin-top: 10px;
+    font-weight: bold;
+    color: #000;
+}
+
+#info-container ion-icon{
+    font-size: 20px;
+    color: #f2a340;
+    margin-right: 5px;
+}
+#description-container{
+    margin-top: 30px;;
+}
+.dashboard-title-container{
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.dashboard-title-container th{
+    width: 25%;
+}
+
+.dashboard-title-container form{
+    display: inline-block;
+}
+.btn-primary{
+    background-color: #c28008;
+
+}
+.already-joined-msg{
+    margin: 15px 0;
+    color: #004045;
+    background-color: #CCE5FF;
+    border: 1px solid #88DAFF;
+    padding: 10px;
+    width: 275px;
+}
+.img-preview{
+    width: 100px;
+    margin-top: 20px;
+}
+
+#events-container  {
+    flex:1 1 24%;
+    max-width: 100%;
+    border-radius: 10px;
+    padding: 50px;
+    margin: 5%;
+    
+}
+
+#info-container #event-submit {
+    margin: 20px;
+}
+
+#events-container img{
+    max-height: 150px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+    
+}
+
+ .card-date{
+    font-size: 12px;
+    color: #ccc;
+    width:100%;
+}
+ .card-title{
+    width:100%;
+    color: #212121;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.card-body{
+    width:100%;
+}
+.card-participants{
+    width: 100%;
+    font-size: 14px;
+    color: #757575;
+    
+}
+footer{
+    text-align: center;
+    background-color: #353e48;
+    color: #fff;
+    padding: 30px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+footer p{
+    margin-bottom: 0;
+}
+
